@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: mf6adj
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/mf6adj/mf6adj-{{ version }}.tar.gz
-  sha256: dc52eb755a440606c3136e57332e653fa12328b453f6ab0b4d0deac11745f70e
+  sha256: baaa92420c0bf7c99d9e17d6446cf5f62b1f31351fade7714db3c50feb96998e
 
 build:
   noarch: python
