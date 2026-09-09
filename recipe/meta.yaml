@@ -23,12 +23,12 @@ requirements:
     - python >={{ python_min }}
     - numpy >=2.0
     - matplotlib-base >=3.5.0
-    - pandas >=2.0.0
+    - pandas >=2.0.0,<4
     - flopy >=3.10.0
-    - modflowapi >=0.2.0
+    - modflowapi >=1.0.0,<2
+    - xmipy >=1.5.0
     - h5py >=3.0.0
     - scipy >=1.7.0
-    - pyemu >=1.4.0
     - geopandas >=1.0.0
 
 test:
