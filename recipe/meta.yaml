@@ -11,7 +11,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -43,7 +43,7 @@ test:
 about:
   home: https://pypi.org/project/mf6adj/
   summary: mf6adj is a Python package for adjoint-state sensitivity analysis with MODFLOW 6
-  doc_url: https://md6adj.readthedocs.io
+  doc_url: https://mf6adj.readthedocs.io
   license: CC0-1.0
   license_file: LICENSE
 
